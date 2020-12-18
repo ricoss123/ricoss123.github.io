@@ -1,0 +1,417 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.grey {
+  color: grey;
+}
+
+.menu-bar {
+  background: black;
+  text-align: center;
+
+}
+
+text-align: center;
+width: 90px;
+font-family: arial;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+
+}
+
+.slick-dots {
+  display: inline-flex;
+  list-style: none;
+}
+
+.menu-bar ul li {
+  max-width: 100%;
+  margin: 15px;
+  padding: 5px;
+  text-align: left;
+
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.menu-bar ul li ul li a {
+  color: black;
+}
+
+.menu-bar ul li a:hover {
+  border-radius: 3px;
+  color: white;
+}
+
+.menu-bar ul li ul li a:hover {
+  color: red;
+
+}
+
+.inner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 50px;
+  top: 10px;
+}
+
+.inner1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 50px;
+  top: 10px;
+}
+
+.wrap {
+  position: absolute;
+  max-width: 70px;
+  text-decoration: none;
+  height: 70px;
+  top: 1px;
+  right: 300px;
+}
+
+.wrap a:hover {
+  color: rgb(24, 25, 27);
+}
+
+.icon {
+  position: absolute;
+  max-width: 70px;
+  text-decoration: none;
+  height: 70px;
+  top: 1px;
+  right: -12px;
+}
+
+.fa-instagram {
+  position: absolute;
+  max-width: 70px;
+  height: 70px;
+  top: 15px;
+  right: -190px;
+  color: grey;
+  text-decoration: none;
+}
+
+.fa-globe {
+  position: absolute;
+  max-width: 70px;
+  height: 70px;
+  top: 80px;
+  left: 400px;
+}
+
+.cn {
+  position: absolute;
+  max-width: 70px;
+  height: 70px;
+  top: 12px;
+  right: -230px;
+  text-decoration: none;
+  color: grey;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  background-color: white;
+  position: absolute;
+  margin: 5px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+}
+
+.notice {
+  text-align: center;
+}
+
+.video1 {
+  position: static;
+  padding: 10px;
+}
+
+.video2 {
+  position: static;
+  padding: 70px;
+}
+
+.gallery {
+  float: left;
+  margin: 10px;
+}
+
+.mySlides {
+  width: 300px;
+  height: auto;
+}
+
+.info {
+  position: absolute;
+  right: -200px;
+  top: 140px;
+}
+
+.info1 {
+  position: absolute;
+  right: 250px;
+  bottom: 15px;
+}
+
+.w3-display-container {
+  position: absolute;
+  margin: 80px;
+}
+
+.sectiontitle {
+  position: relative;
+  background-color: black;
+  left: 80px;
+  margin-bottom: -80px;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+  width: 95%px;
+  left: -120px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  font-size: 40px;
+  font-weight: 200;
+  left: 15px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+div.box2 {
+  box-sizing: border-box;
+}
+
+.box2 {
+  float: left;
+  width: 100%;
+  padding: 50px;
+  height: 450px;
+  background-color: rgb(48, 48, 184);
+}
+
+.px-1 {
+  padding-left: ($spacer *.25) !important;
+  padding-right: ($spacer *.25)
+}
+
+
+
+
+
+
+
+
+.promo {
+  color: black;
+  padding-left: 150px;
+  margin-top: -20px;
+}
+
+.viewall {
+  padding-left: 80%;
+  margin-top: -30px;
+}
+
+.clearfix2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.gambarfooterbawah img {
+  margin-top: -60px;
+  margin-left: 150px;
+}
+
+.kantorpusat {
+  color: white;
+  padding-left: 150px;
+  max-width: 100%;
+}
+
+.jlntomang {
+  color: white;
+  padding-left: 150px;
+  max-width: 100%;
+}
+
+.contactbawah {
+  color: white;
+  padding-left: 150px;
+  padding-top: 10px;
+  max-width: 100%;
+}
+
+.perusahaanbawah {
+
+  color: white;
+  padding-left: 550px;
+  margin-top: -250px;
+  max-width: 100%;
+}
+
+.perusahaanbawah a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.profilbawah {
+
+  color: white;
+  padding-left: 550px;
+  padding-top: 10px;
+  max-width: 100%;
+}
+
+.penghargaanbawah {
+
+  color: white;
+  padding-left: 550px;
+  max-width: 100%;
+}
+
+.csrbawah {
+
+  color: white;
+  padding-left: 550px;
+  max-width: 100%;
+}
+
+.produklayananbawah {
+  color: white;
+  padding-left: 730px;
+  margin-top: -105px;
+  max-width: 100%;
+}
+
+.produklayananbawah a {
+  color: white;
+}
+
+.jneexspressbawah {
+
+  color: white;
+  padding-left: 730px;
+  max-width: 100%;
+}
+
+.jnelogisticbawah {
+
+  color: white;
+  padding-left: 730px;
+  max-width: 100%;
+}
+
+.jnefreightbawah {
+
+  color: white;
+  padding-left: 730px;
+  max-width: 100%;
+}
+
+.solusibisnisbawah {
+
+  color: white;
+  padding-left: 920px;
+  margin-top: -95px;
+  max-width: 100%;
+}
+
+.solusibisnisbawah a {
+  color: white;
+}
+
+.kemitraanbawah {
+  color: white;
+  padding-left: 920px;
+  max-width: 100%;
+}
+
+.corporatebawah {
+  color: white;
+  padding-left: 920px;
+  max-width: 100%;
+}
+
+.tentangbawah {
+  color: white;
+  padding-left: 920px;
+  max-width: 100%;
+}
+
+.linkbawah {
+  color: white;
+  padding-left: 1090px;
+  margin-top: -95px;
+  max-width: 100%;
+}
+
+.linkbawah a {
+  color: white;
+}
+
+.tracebawah {
+
+  color: white;
+  padding-left: 1090px;
+  max-width: 100%;
+}
+
+.shipingbawah {
+  color: white;
+  padding-left: 1090px;
+  max-width: 100%;
+}
+
+.ourbawah {
+  color: white;
+  padding-left: 1090px;
+  max-width: 100%;
+}
+
+.beritabawah {
+  color: white;
+  padding-left: 1090px;
+  max-width: 100%;
+}
+
+.costomer {
+  text-align: right;
+}
